@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BgService.WepApi", "BgService.WepApi\BgService.WepApi.csproj", "{C214FEE0-22D9-476F-9CE2-C4AFD151718D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BgService.WebUI", "BgService.WebUI\BgService.WebUI.csproj", "{4852244A-CF34-4234-A2A9-0DE59BDC1979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C214FEE0-22D9-476F-9CE2-C4AFD151718D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C214FEE0-22D9-476F-9CE2-C4AFD151718D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C214FEE0-22D9-476F-9CE2-C4AFD151718D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C214FEE0-22D9-476F-9CE2-C4AFD151718D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4852244A-CF34-4234-A2A9-0DE59BDC1979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4852244A-CF34-4234-A2A9-0DE59BDC1979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4852244A-CF34-4234-A2A9-0DE59BDC1979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4852244A-CF34-4234-A2A9-0DE59BDC1979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10F36D4B-0572-442D-AA92-4192C2D9EB03}
+	EndGlobalSection
+EndGlobal
