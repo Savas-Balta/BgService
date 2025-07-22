@@ -1,4 +1,5 @@
 ﻿using BgService.WebUI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BgService.WebUI.Controllers
@@ -12,6 +13,7 @@ namespace BgService.WebUI.Controllers
             _repository = repository;
         }
 
+        [Authorize]
         public async Task<IActionResult> Index()
         {
             var forexRates = await _repository.GetAllForexAsync();

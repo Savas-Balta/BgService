@@ -10,6 +10,7 @@ namespace BgService.WebUI.Data
         {
         }
         public DbSet<Forex> Forexs { get; set; }
-        
+        public DbSet<User> Users { get; set; }
+
     }
 }

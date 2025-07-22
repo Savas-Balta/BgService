@@ -6,7 +6,7 @@ namespace BgService.WepApi.Services
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<ForexApiService> _logger;
-        private readonly string _baseUrl = "https://api.frankfurter.dev/v1/";
+        private readonly string _baseUrl = "https://api.frankfurter.dev/v1/";  //https://api.frankfurter.dev/v1/latest?base=USD
 
         public ForexApiService(HttpClient httpClient, ILogger<ForexApiService> logger)
         {
